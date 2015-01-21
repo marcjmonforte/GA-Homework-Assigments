@@ -1,0 +1,137 @@
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro);
+
+* {
+	font-weight: bold;
+	font-family: "Source Sans Pro", Helvetica, sans-serif;
+}
+
+body {
+	background-image: url(../images/bg.jpg);
+	background-size: cover;
+}
+
+
+#container {
+	width: 1080px;
+	margin: 0 auto;
+}
+
+#topHalf, #bottomHalfOne, #bottomHalfTwo {
+	width: 95.5%;
+	height: 100px;
+	background-color: rgb(250,245,160);
+	border: 2px solid black;
+	box-shadow: 5px 5px 5px black;
+	padding: 10px 20px;
+}
+
+#bottomHalfOne, #bottomHalfTwo {
+	width: 45.5%;
+	height: 700px;
+	float: left;
+	margin-top: 5px;
+}
+
+#bottomHalfOne {
+	margin-right: 5px;
+	margin-left: 0px;
+	background-image: url(http://image.naldzgraphics.net/2012/08/16-Yellow.jpg);
+	background-size: repeat-y;
+}
+
+#bottomHalfTwo {
+	margin-right: 0px;
+	background-color: rgb(250,245,160);
+}
+
+#enterItem, #shopForThis, #shoppingSuggestions {
+	font-size: 1.3em;
+	text-align: center;
+	margin-top: 0px;
+}
+
+#shopForThis, #shoppingSuggestions {
+	margin-top: 7px;
+}
+
+#myImp/*, #myEmail*/ {
+	width: 100%;
+	height: 2em;
+	display: block;
+}
+
+/*#myEmail {
+	margin-top: 6em;
+}*/
+
+#itemBtn/*, #emailBtn*/ {
+	background-color: red;
+	color: white;
+	/*margin: 0 auto;*/
+	margin-top: 0.5em;
+	width: 100%;
+}
+
+#myList {
+	list-style-type: circle;
+}
+
+.checkedOff {
+	text-decoration: line-through;
+	font-weight: normal;
+}
+
+#clearList {
+	width: 69%;
+	background-color: red;
+	color: white;
+	margin-left: 67px;
+}
+
+.item {
+	font-size: 0.7em;
+	margin: 11px 0;
+	margin-left: 45px;
+	color: black;
+}
+
+.info {
+	display: none;
+	text-align: center;
+}
+
+.groceries img {
+	width: 97%;
+	height: auto;
+	border: 5px solid black;
+}
+
+.groceryCaption {
+	position: relative;
+	width: 95%;
+	background-color: rgba(0,0,0,0.5);
+	bottom: 50px;
+	color: white;
+	padding: 10px 10px;
+	margin-bottom: -30px;
+	text-align: right;
+	font-size: 0.8em;
+}
+
+#footer {
+	position: fixed;
+	background-color: black;
+	height: 55px;
+	width: 100%;
+	bottom: 0px;
+	left: 0px;
+	color: white;
+	text-align: right;
+	font-size: 0.7em;
+}
+
+#footerText {
+	position: relative;
+	top: 20px;
+	left: -15px;
+}

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>SHOPPING LIST | Shopping Web Application</title>
+	<script src="js/jQuery.js"></script>
+	<script src="js/jquery-ui.js"></script>
+	<link rel="stylesheet" href="css/style.css">
+	<script src="js/script.js"></script>
+</head>
+<body>
+
+	<div id="container">
+
+		<div id="topHalf">
+			
+			<h1 id = "enterItem"><u>HEY</u>, WHAT ARE YOU SHOPPING FOR?</h1>
+			<input type="text" id="myImp" placeholder="Shopping list item">
+			<button id="itemBtn">ADD ITEM</button>
+
+			<!-- <input type="email" id="myEmail" placeholder="TEMPORARILY UNAVAILABLE">
+			<button id="emailBtn">TEMPORARILY UNAVAILABLE</button> -->
+
+		</div>
+		
+		<div id="bottomHalfOne">
+			<h1 id = "shopForThis"><u>WAIT!</u> DON'T FORGET TO BUY:</h1>
+
+			<ul id="myList">
+			</ul>
+
+			<button id="clearList">CLEAR ALL</button>
+
+		</div>
+
+		<div id="bottomHalfTwo">
+			
+			<h1 id = "shoppingSuggestions"><u>CHECK IT</u>: OUR MOST POPULAR ITEMS</h1>
+
+			<div class="groceries" id="groceriesSteak">
+				
+				<a href="http://www.amazon.com/b?node=2256159011" target="_blank"><img src="images/steakGrocery.jpg" alt=""></a>
+				<div class="groceryCaption" id="captionForSteak">Make no mistake - you better choose STEAK.</div>
+			</div>
+
+			<div class="groceries" id="groceriesAsparagus">
+				
+				<a href="http://www.amazon.com/s/ref=nb_sb_noss_1?url=search-alias%3Dgrocery&field-keywords=asparagus" target="_blank"><img src="images/asparagusGrocery.jpg" alt=""></a>
+				<div class="groceryCaption" id="captionForAsparagus">Does anyone have a spare ASPARAGUS?</div>
+			</div>
+
+			<div class="groceries" id="groceriesRice">
+				
+				<a href="http://www.amazon.com/s/ref=nb_sb_noss_2?url=search-alias%3Dgrocery&field-keywords=rice&rh=n%3A16310101%2Ck%3Arice" target="_blank"><img src="images/riceGrocery.jpg" alt=""></a>
+				<div class="groceryCaption" id="captionForRice">Yeah, RICE is nice.</div>
+			</div>
+
+		</div>
+
+	</div>
+
+	<div id="footer">
+
+		<div id="footerText">&copy; Marc Monforte | General Assembly, 2014</div>
+
+	</div>
+
+</body>
+</html>

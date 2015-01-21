@@ -1,0 +1,243 @@
+@import url(http://fonts.googleapis.com/css?family=Orbitron);
+
+body {
+	font-family: arial;
+}
+
+/*NAV BAR*/
+
+#navbarAccent {
+	width: 100%;
+	height: 15px;
+	background-color: rgb(30, 39, 119);
+	position: fixed;
+	padding: 10px;
+	margin: -10px;
+	z-index: 1;
+	top: 1px;
+}
+
+#nav {
+	width: 100%;
+	height: 75px;
+	background-color: rgb(47,53,185);
+	position: fixed;
+	padding: 10px;
+	margin: -10px;
+	border-bottom: 3px solid white;
+	color: white;
+
+}
+
+#navLogo {
+	font-family: 'Orbitron';
+	font-size: 2.1em;
+	font-style: italic;
+	text-shadow: 0 2px black;
+	margin-left: 10px;
+}		
+
+#navOptions ul {
+	text-align: right;
+	margin-right: 30px;
+	margin-top: -50px;
+}
+
+#navOptions li {
+	display: inline;
+	margin: 0 10px;
+	text-shadow: 0 2px black;
+}
+
+#navLogo a, #navOptions a {
+	color: white;
+	text-decoration: none;
+}
+
+#navOptions a:hover {
+	text-decoration: underline;
+}
+
+/*MAIN*/
+
+#main {
+	width: 900px;
+	margin: 0 auto;
+}
+
+#callToAction {
+	color: white;
+	position: relative;
+	font-size: 1.5em;
+	top: 320px;
+	text-align: center;
+	text-shadow: 0 3px black;
+}
+
+#explainToAction {
+	color: white;
+	position: relative;
+	font-size: 0.8em;
+	top: 290px;
+	text-align: right;
+	text-shadow: 0 2px black;
+}
+
+#buttonToAction {
+	position: relative;
+	top: 330px;
+	text-align: center;
+}
+
+#buttonToAction button, #registerButton button { 
+	height: 60px;
+	width: 300px;
+	border-radius: 5px;
+	border: 1px solid rgb(47, 53, 185);
+	box-shadow: 0 3px 5px black;
+	color: white;
+	font-size: 1.5em;
+	background-color: rgb(47, 53, 185);
+	text-shadow: 0 2px black;
+}
+
+#buttonToAction button:hover, .aboutButton button:hover, #registerButton button:hover{
+	border: 3px solid white;
+	background-color: rgb(77, 83, 215);
+}
+
+#buttonToAction button:active, #registerButton button:active {
+	height: 58px;
+	margin-top: 3px;
+}
+
+/*MAIN PAGE POPUPS*/
+
+#aboutPage, #howPage, #FAQpage {
+	height: 300px;
+	width: 400px;
+	position: fixed;
+	right: -1000px;
+	border: 3px solid white;
+	background-color: rgb(47, 53, 185);
+	padding: 10px 40px;
+	margin-top: -220px;
+	border-radius: 5px;
+	color: white;
+	box-shadow: 0 3px 5px black;
+}
+
+.aboutButton button {
+	height: 30px;
+	width: 150px;
+	border-radius: 5px;
+	border: 1px solid rgb(47, 53, 185);
+	box-shadow: 0 3px 5px black;
+	color: white;
+	background-color: rgb(47, 53, 185);
+	text-shadow: 0 2px black;
+	float: right;
+}
+
+ .aboutButton button:active {
+	height: 29px;
+	margin-top: 3px;
+}
+
+#registerNow {
+	width: 50%;
+	height: 650px;
+	background-color: white;
+	margin: 0 auto;
+	margin-top: -120px;
+	padding: 30px;
+	position: fixed;
+	box-shadow: 0 5px 5px black;
+	border: 5px solid rgb(47,53,185);
+}
+
+#registerNow h1 {
+	text-align: center;
+	font-family: 'Orbitron';
+}
+
+#registerNow input {
+	width: 100%;
+	line-height: 1.75em;
+}
+
+#closeRegistration {
+	position: relative;
+	font-size: 2em;
+	color: lightgray;
+	text-align: right;
+	top: -25px;
+	right: -15px;
+}
+
+#closeRegistration button {
+	border-radius: 3px;
+	background-color: rgb(47,53,185);
+	color: white;
+	font-weight: bold;
+	box-shadow: 0 2px 2px black;
+}
+
+#registerButton {
+	text-align: center;
+}
+
+#registerDisclaimer {
+	font-size: 0.6em;
+	text-align: right;
+	margin-top: 40px;
+	margin-right: -15px;
+	color: lightgray;
+}
+
+/*FOOTER*/
+
+#footer {
+	width: 100%;
+	height: 35px;
+	background-color: rgb(47,53,185);
+	position: fixed;
+	padding: 10px;
+	margin: -10px;
+	bottom: 0;
+	border-top: 3px solid white;
+	color: white;
+	font-size: 0.6em;
+}
+
+#footer p {
+	text-align: right;
+	margin-right: 30px;
+}
+
+/*BACKGROUND IMAGE*/
+
+#backgroundImage {
+	width: 100%;
+	height: 100%;
+	position: fixed;	
+	background: url('../images/bgImage.png');
+	opacity: 0.3;
+	top: 65px;
+	/*background-size: cover;*/
+	background-repeat: no-repeat;
+	padding: 10px;
+	margin: -10px;
+	z-index: -4;
+}
+
+#bgOverlay {
+	width: 100%;
+	height: 1000px;
+	position: fixed;	
+	background-color: rgba(0,0,0,0.3);
+	top: 65px;
+	padding: 10px;
+	margin: -10px;
+	z-index: -3;
+}

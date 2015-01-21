@@ -1,0 +1,58 @@
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro);
+
+a {
+	text-decoration: none;
+}
+
+a:visited {
+	color: #00CCA3;
+}
+
+#betty {
+	float: right;
+	height: 150px;
+	width: auto;
+}
+
+#inner {
+	margin: 20px;
+	border: lightgray solid 3px;
+	padding: 15px 30px;
+}
+
+#container {
+	max-width: 600px;
+	margin: 0 auto;
+}
+
+#title {
+	font-style: italic;
+}
+
+body {
+	background-color: #444444;
+	color: white;
+	font-family: "Source Sans Pro", sans-serif;
+}
+
+#currentPage {
+	color: white;
+}
+
+.nonCurrent {
+	color: #00CCA3;
+}
+
+h3 {
+	letter-spacing: 2px;
+	color: #a6a6a6;
+}
+
+.gray {
+	color: #a6a6a6;
+	font-size: 0.9em;
+}
+
+#footer, #header {
+	margin: 15px 0;
+}

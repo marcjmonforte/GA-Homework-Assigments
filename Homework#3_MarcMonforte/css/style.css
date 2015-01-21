@@ -1,0 +1,187 @@
+body {
+	background-color: black;
+}
+
+#container {
+	width: 800px;
+	height: auto;
+	margin: 0 auto;
+	border: 1px solid black;
+	font-family: sans-serif;
+	background-color: white;
+	box-shadow: 0 0 5px gray;
+}
+
+/*NAVIGATION CSS*/
+
+#navBar {
+	width: 780px;
+	background-color: black;
+	padding: 10px;
+	border-bottom: 4px solid yellow;
+}
+
+#navBar h1 {
+	color: yellow;
+	font-family: Georgia;
+	margin-top: 10px;
+	margin-left: 12px;
+}
+
+#navBar nav {
+	text-align: right;
+}
+
+#navBar li {
+	display: inline;
+	margin: 0 5px;
+}
+
+#navBar li a {
+	text-decoration: none;
+	color: white;
+	font-size: 1.1em;
+}
+
+.navTwo {
+	font-family: Impact;
+	font-size: 1.3em;
+}
+
+#subTitle {
+	background-color: lightgray;
+	margin: -20px 0px;
+}
+
+#subTitle h2 {
+	width: 800px;
+	height: 50px;
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: -20px;
+	font-family: Georgia;
+	font-style: italic;
+	font-size: 1.5em;
+}
+
+#subtitleAre {
+	border-bottom: 2px solid yellow;
+}
+
+/*END NAVIGATION CSS*/
+
+/*BODY CONTENT CSS*/
+
+#mainBody {
+	background: url(../images/img1.jpg);
+	background-size: cover;
+	width: 800px;
+	height: 400px;
+}
+
+#popupBox {
+	height: 320px;
+	width: 245px;
+	border: 1px solid gray;
+	background-color: rgba(240,240,240,.8);
+	position: relative;
+	left: 500px;
+	top: 20px;
+	padding: 20px;
+	box-shadow: 0 0 3px gray;
+}
+
+#popupBox h2 {
+	color: black;
+	font-size: 1.75em;
+	margin-bottom: 25px;
+}
+
+#popupBox p {
+	line-height: 1.5em;
+	margin-bottom: 25px;
+}
+
+#popupBox button {
+	background-color: yellow;
+	color: black;
+	font-family: Impact;
+	height: 50px;
+	width: 245px;
+	font-size: 1.3em;
+	border: 1px solid yellow;
+	border-radius: 5px;
+	box-shadow: 0 3px 3px gray;
+}
+
+#popupBox button a, .bodyLinksOption button a {
+	text-decoration: none;
+	color: black;
+}
+
+#popupBox button a:visited, .bodyLinksOption button a:visited {
+	color: black;
+}
+
+#bodyLinks {
+	width: 800px;
+	height: 300px;
+}
+
+.bodyLinksOption {
+	width: 215px;
+	height: 235px;
+	padding: 10px 20px;
+}
+
+#option2 {
+	position: relative;
+	top: -255px;
+	left: 278px;
+	border-left: 1px solid grey;
+}
+
+#option3 {
+	position: relative;
+	top: -510px;
+	left: 550px;
+	border-left: 1px solid grey
+}
+
+.bodyLinksOption h3 {
+	font-family: Garamond;
+	font-size: 1.5em;
+}
+
+.bodyLinksOption button {
+	background-color: lightgray;
+	color: black;
+	font-family: Impact;
+	height: 50px;
+	width: 200px;
+	font-size: 1.3em;
+	border: 1px solid lightgray;
+	border-radius: 5px;
+	box-shadow: 0 3px 3px gray;
+}
+
+/*END BODY CONTENT CSS*/
+
+#footer {
+	height: 50px;
+	width: 780px;
+	background-color: black;
+	color: white;
+	margin-top: -45px;
+	padding: 10px;
+}
+
+#footer p {
+	margin-left: 12px;
+}
+
+/*FOOTER CSS*/
+
+
+
+/*END FOOTER CSS*/
